@@ -9,5 +9,5 @@ ci:
     - mvn package
     - pwd
     - ls -l
-    - cp HT1610/target/*.war $ALAUDACI_DEST_DIR
+    - cp ./target/*.war $ALAUDACI_DEST_DIR
     - cp Dockerfile $ALAUDACI_DEST_DIR
