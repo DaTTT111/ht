@@ -4,10 +4,10 @@ pre_ci_boot:
     tag: "1.0"
 
 ci:
-    - cd HT1610
+    - cd src/main
     - mvn install
     - mvn package
     - pwd
     - ls -l
-    - cp ./target/*.war $ALAUDACI_DEST_DIR
+    - cp target/*.war $ALAUDACI_DEST_DIR
     - cp Dockerfile $ALAUDACI_DEST_DIR
