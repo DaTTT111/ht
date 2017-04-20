@@ -4,7 +4,7 @@ pre_ci_boot:
     tag: "1.0"
 
 ci:
-    - cd src/main
+    - cd HT1610
     - mvn install
     - mvn package
     - pwd
