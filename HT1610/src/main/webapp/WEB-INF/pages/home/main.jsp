@@ -164,12 +164,12 @@ window.onerror = killErrors;
 <div id="innerMenubar">
     <div id="navMenubar">
 <ul>
- 
+ <!--
 <li id="new"><a href="#">新建</a></li>
 <li id="save"><a href="#" title="保存留言窗口的位置信息">位置</a></li>
  
 <li id="stat"><a href="#">历史</a></li>
- 
+ -->
 </ul>
     </div>
 </div>
@@ -267,7 +267,7 @@ window.onerror = killErrors;
 		
 		<div id='ff8080813d00613e013d00681494000a' style='position:absolute;left:442px;top:91px;z-index:1002; height:164px;background:none;' onmousedown='getFocus(this)'>
 			<table border=0 cellspacing="0" cellpadding="0" width="220">
-				<!--<tr>
+				<tr>
 					<td style='cursor:move;' onmousedown="MDown(this,'ff8080813d00613e013d00681494000a')" background="${ctx}/staticfile/images/olmsg/FFE7E81.gif" height="45">
 						<input type="hidden" name="id" class="input" value="ff8080813d00613e013d00681494000a" />
 						<input type="hidden" name="isChange" class="input" value="0" />
@@ -276,7 +276,7 @@ window.onerror = killErrors;
 						&nbsp;
 						
 					</td>
-				</tr>-->
+				</tr>
 				<tr>
 					<td style='cursor:move;white-space:nowrap;' width='100%' onmousedown="MDown('ff8080813d00613e013d00681494000a')" background="${ctx}/staticfile/images/olmsg/FFE7E82.gif" >
 						<div style="float:left;width:130px;padding-left:7px;font-family:Tahoma;color:gray;font-style : oblique;">
