@@ -176,7 +176,7 @@ window.onerror = killErrors;
 </div>
 </div>
  
-<logic:notEmpty name="olmsgList">
+<!--<logic:notEmpty name="olmsgList">-->
  
 	
 		
