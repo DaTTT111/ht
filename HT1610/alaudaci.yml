@@ -1,6 +1,6 @@
 version: "0.1.0"
 pre_ci_boot:
-    image: alaudademo17-alaudademo17.customerindex.alauda.cn:5000/maven
+    image: alaudademo10-alaudademo10.customerindex.alauda.cn:5000/maven
     tag: "latest"
 
 ci:
