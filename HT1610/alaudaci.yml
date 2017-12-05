@@ -5,6 +5,8 @@ pre_ci_boot:
 
 ci:
     - cd HT1610
+    - cd Dockerfile $ALAUDAUPLOAD_DEST_DIR
     - mvn package
     - cp Dockerfile $ALAUDACI_DEST_DIR
     - cp target/*.war $ALAUDACI_DEST_DIR
+    - cp target/*.war $ALAUDAUPLOAD_DEST_DIR
