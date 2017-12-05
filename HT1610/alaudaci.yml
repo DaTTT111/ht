@@ -5,5 +5,5 @@ pre_ci_boot:
 
 ci:
     - cd HT1610
-    - cp Dockerfile $ALAUDAUPLOAD_DEST_DIR
+    - cp Dockerfile $ALAUDACI_UPLOAD_DIR
     - cp Dockerfile $ALAUDACI_DEST_DIR
