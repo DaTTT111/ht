@@ -1,9 +1,13 @@
 version: "0.1.0"
 pre_ci_boot:
-    image: alaudademo10-alaudademo10.customerindex.alauda.cn:5000/maven
+    image: registry.alauda.cn/library/centos
     tag: "latest"
 
 ci:
     - cd HT1610
-    - cp Dockerfile $ALAUDACI_UPLOAD_DIR
     - cp Dockerfile $ALAUDACI_DEST_DIR
+sonarqube:
+  code_encoding: "UTF-8"
+  code_language: "java"
+  code_scan_path: "HT1610/src"
+  integration_name: "8aabc7aa-10db-4971-8bf3-30186317a700"
